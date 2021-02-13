@@ -29,7 +29,7 @@ public class TestV1 {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body(containsString("obj3"))
+                .body(containsString("obj2"))
         ;
     }
 }
